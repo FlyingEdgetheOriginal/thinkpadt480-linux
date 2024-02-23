@@ -99,9 +99,9 @@ All the things to setup:
 		So now you have Easy Effects installed, yay! Now it's time to make your speakers sound good.
 			1. Download the zip in the releases
 			2. Extract the zip
-			3. Copy the contents of "input" to "~/.config/easyeffects/input"
-			4. Copy the contents of "irs" to "~/.config/easyeffects/irs"
-			5. Copy the contents of "output" to "~/.config/easyeffects/output"
+			3. Copy the contents of **input** to **~/.config/easyeffects/input**
+			4. Copy the contents of **irs** to **~/.config/easyeffects/irs**
+			5. Copy the contents of **output** to **~/.config/easyeffects/output**
 	4. Making sure Easy Effects is working properly
 		Now you have copied the config files so now it is time to actually do something with all of these config files
 		1. Open Easy Effects
