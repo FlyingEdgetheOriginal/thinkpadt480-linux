@@ -108,6 +108,7 @@ All the things to setup:
 		2. Click on Presets in the top left corner
 		3. Load a preset and listen to how it sounds
 		4. If it sounds the same as before, make sure that the global bypass is disabled, the button for that is right next to the presets button
+  		5. If everything sounds as it should, make sure that you allow Easy Effects to launch on startup, Go to the three lines menu -> "Preferences" -> Toggle "Launch Service at System Startup" to on, you'll also probably want to disable "Shutdown at Window Closing" if you want to just have it running in the background.
 You are now done! I hope that this guide has helped you get your ThinkPad T480 to be the perfect Linux machine!
 
 Credits:
