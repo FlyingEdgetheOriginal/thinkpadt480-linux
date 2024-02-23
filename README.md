@@ -55,16 +55,16 @@ All the things to setup:
 		2. When nano opens it should say "New File" at the bottom of the Terminal window
 		3. Paste this into that new file:
 
-     			[Unit]
-    			Description=Restart services to fix fingerprint integration
-              		After=suspend.target hibernate.target hybrid-sleep.target suspend-then-hibernate.target
+     				[Unit]
+				Description=Restart services to fix fingerprint integration
+				After=suspend.target hibernate.target hybrid-sleep.target suspend-then-hibernate.target
 
-              		[Service]
-              		Type=simple
-              		ExecStart=systemctl restart open-fprintd.service python3-validity.service
+				[Service]
+				Type=simple
+				ExecStart=systemctl restart open-fprintd.service python3-validity.service
 
-              [Install]
-              WantedBy=suspend.target hibernate.target hybrid-sleep.target suspend-then-hibernate.target
+				[Install]
+				WantedBy=suspend.target hibernate.target hybrid-sleep.target suspend-then-hibernate.target
       
   		4. Hit Ctrl+X -> "Y" -> Enter
 		5. It should save a new systemd service file
@@ -77,7 +77,7 @@ All the things to setup:
 		8. Your fingerprint sensor should be working when the lid is shut now! To test, just close the lid, wait for it to start sleeping, then reopen it
 		The only issue that you may encounter is it does take the fingerprint just a second to start up so when you open the lid wait a few seconds, then try
 			
-2. Setup Audio
+3. Setup Audio
 	I don't know how much you have used your ThinkPad on Linux before following this guide, but if you have tried to listen to anything, you'll realize,
 	the speakers sound like absolute doggy doodoo, so we are going to fix that
 	1. Install Easy Effects
