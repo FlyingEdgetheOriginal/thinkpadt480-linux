@@ -110,6 +110,12 @@ All the things to setup:
 		4. If it sounds the same as before, make sure that the global bypass is disabled, the button for that is right next to the presets button
   		5. If everything sounds as it should, make sure that you allow Easy Effects to launch on startup, Go to the three lines menu -> "Preferences" -> Toggle "Launch Service at System Startup" to on, you'll also probably want to disable "Shutdown at Window Closing" if you want to just have it running in the background.
 You are now done! I hope that this guide has helped you get your ThinkPad T480 to be the perfect Linux machine!
+**If you are having issues with one CPU core being slammed to 100% usage, disable whoopsie and apport**
+		
+  				sudo systemctl stop apport
+				sudo systemctl stop whoopsie
+				sudo systemctl disable apport
+				sudo systemctl disable whoopsie
 
 Credits:
 JackHack96 for the Perfect EQ base for the Dolby Audio configs
